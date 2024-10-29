@@ -30,4 +30,4 @@ This project includes:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/daulat5997/tailwebs.git
-   cd teacher-portal
+   cd tailwebs
