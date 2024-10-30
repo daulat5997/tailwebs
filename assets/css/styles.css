@@ -1,0 +1,70 @@
+
+.navbar {
+    background-color: #f8f8f8;
+    padding: 1rem;
+}
+.navbar div {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #e01a5d; 
+}
+.navbar a {
+    color: #000;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+th {
+    background-color: #f1f1f1;
+    text-align: left;
+    padding: 12px;
+    font-size: 16px;
+}
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.action-dropdown {
+    position: relative;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.dropdown-menu {
+    min-width: 6rem;
+}
+
+.add-button {
+    float: left;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nameinitial {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(8, 167, 229);
+    font-size: 14px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+}
